@@ -1,5 +1,0 @@
-#requirements
-
-streamlit==0.3.20
-pandas==2.1.3
-pygwalker==0.3.20
