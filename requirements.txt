@@ -1,2 +1,4 @@
 
 pygwalker==0.3.20
+pandas
+lxml
