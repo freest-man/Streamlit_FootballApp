@@ -42,17 +42,13 @@ The data is stored in a Pandas DataFrame.
 
 5/ User Input for Team Selection
 
-![image](https://github.com/freest-man/Streamlit_FootballApp/assets/116303271/876fc148-6896-482f-b552-0730c8b475fa)
+![image](https://github.com/freest-man/Streamlit_FootballApp/assets/116303271/53aeaba8-14fd-4b8f-b5ba-ced77c34d7d2)
 
 Users can select one or more teams from the sidebar.
 
-6/ Filtering and Displaying Data
-
-![image](https://github.com/freest-man/Streamlit_FootballApp/assets/116303271/ef0404df-6bb2-403f-9e65-1c3bb1a74720)
-
 The data is filtered based on the selected teams, and the resulting DataFrame is displayed.
 
-7/ Visualization
+6/ Visualization
 
 ![image](https://github.com/freest-man/Streamlit_FootballApp/assets/116303271/41b1ca91-d398-4334-86b3-502eff821d57)
 
