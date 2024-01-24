@@ -10,7 +10,7 @@ st.title('EPL Stats Explorer')
 
 st.markdown("""
 This app performs simple webscraping of EPL Football Team stats data !
-* **Python libraries:** base64, pandas, streamlit, numpy, matplotlib, seaborn
+* **Python libraries:** base64, pandas, streamlit, numpy, pygwalker
 * **Data source:** [https://fbref.com/en/](https://fbref.com/en/).
 """)
 
