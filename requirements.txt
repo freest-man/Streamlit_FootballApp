@@ -1,4 +1,4 @@
 
-pygwalker==0.4.3
+pygwalker
 pandas
 lxml
