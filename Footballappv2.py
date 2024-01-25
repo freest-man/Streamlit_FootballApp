@@ -1,12 +1,11 @@
 import streamlit as st
 import pandas as pd
 import base64
-import creds
 from pygwalker.api.streamlit import StreamlitRenderer, init_streamlit_comm
 from pygwalker import GlobalVarManager
 
 
-GlobalVarManager.set_kanaries_api_key(creds.api_key)
+GlobalVarManager.set_kanaries_api_key(st.secrets["api_key"])
 
 
 st.title('EPL Stats Explorer')
