@@ -16,10 +16,15 @@ Let me break down the key components for you:
 
 1/ Imports
 
-![image](https://github.com/freest-man/Streamlit_FootballApp/assets/116303271/3c09367f-37aa-4d6f-b768-3f434df36596)
+![image](https://github.com/freest-man/Streamlit_FootballApp/assets/116303271/6217c586-ca03-4cd1-8d04-cd7ba24b1979)
 
+These are Python libraries used for creating the web app (Streamlit for the app interface), handling data (Pandas, NumPy), and creating visualizations (**PygWalker**).
 
-These are Python libraries used for creating the web app (Streamlit for the app interface), handling data (Pandas, NumPy), and creating visualizations (PygWalker).
+StreamlitRender is for rendering the Dashboard UI
+
+init_streamlit_com is for initiating communication between pygwalker and streamlit
+
+GlobalVarManager is to set the Kanaries API for the chat feature.
 
 2/ App Title and Description:
 
@@ -50,8 +55,9 @@ The data is filtered based on the selected teams, and the resulting DataFrame is
 
 6/ Visualization
 
-![image](https://github.com/freest-man/Streamlit_FootballApp/assets/116303271/41b1ca91-d398-4334-86b3-502eff821d57)
+![image](https://github.com/freest-man/Streamlit_FootballApp/assets/116303271/82933d07-3064-4085-be5d-e96ce06af10f)
 
-A button is provided to generate a visualization using the PygWalker library. 
 
-When clicked, it calls the analysisdash function, which converts the DataFrame to HTML using PygWalker and displays it in the app.
+A button is provided to generate a visualization using the PygWalker library.
+
+The button triggers the creation and rendering of a PyGWalker visualization using a cached instance of the StreamlitRenderer class.
