@@ -7,7 +7,7 @@ from pygwalker import GlobalVarManager
 
 GlobalVarManager.set_kanaries_api_key(st.secrets["api_key"])
 
-
+st.set_page_config(layout="wide")
 st.title('EPL Stats Explorer')
 
 st.markdown("""
@@ -91,5 +91,5 @@ def get_pyg_renderer() -> "StreamlitRenderer":
 
 if st.button("Create Visualisation with this Data"):
     renderer = get_pyg_renderer()
-    renderer.render_explore()
+    renderer.render_explore(width=None)
 
