@@ -8,7 +8,7 @@ from pygwalker import GlobalVarManager
 GlobalVarManager.set_kanaries_api_key(st.secrets["api_key"])
 
 st.set_page_config(layout="wide")
-st.title('EPL Stats Explorer')
+st.title('EPL Stats Explorer by Sasi')
 
 st.markdown("""
 This app performs web scraping of EPL Football Team stats data and enables visualization using PygWalker!
